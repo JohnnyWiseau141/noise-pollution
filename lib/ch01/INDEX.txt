@@ -1,0 +1,29 @@
+# Input & Output
+
+name.js                         |   Done    |   Prompt the user for their name, and print back a greeting
+c1v1c2v2.js                     |   Done    |   C1 V1 = C2 V2 biotech formula
+pokemon.js                      |   Done    |   Pokemon program that sbeve's friend wrote
+count.js                        |   Done    |   Prompt the user to count starting at 1, and exit when they "mess up"
+count-by-2.js                   |   Done    |   Prompt the user to count by twos (aka franklin mode)
+count-by-n.js                   |   Done    |   Prompt the user for a number, then prompt them to count by that number
+string-repeat.js                |   Done    |   Prompt the user for a string, then a number, then repeat their string that number of times
+string-repeat-advanced.js       |   Done    |   Same as `string-repeat.js`, but also print the number along side the string
+loop.js                         |   Done    |   Print numbers 1 to N, where N is a number given by the user
+loop-advanced.js                |   Done    |   Print numbers 1 to N, with special support for zero and negative numbers
+fizzbuzz.js                     |   Done    |   Fizzbuzz from 1 to 30
+fizzbuzz-advanced.js            |   Done    |   Fizzbuzz from 1 to N, where N is a number given by the user
+
+temptrivia.js                   |   Done    |   Convert between fahrenheit, celcius and kelvin, decided by the user
+biotech-formula.js              |   Done    |   A custom biotech formula decided by Johnny
+quiz.js                         |   Done    |   A super cool quiz for super cool guys. Decided by Johnny
+quiz-score.js                   |   Done    |   Like `quiz.js`, but instead of looping over each question, it keeps track of how many you've gotten right/wrong and gives you your score at the end
+
+horizontal-string-repeat-9.js   |   Done    |   Repeat a string "horizontally" (as oppossed to vertically) nine times
+horizontal-string-repeat-n.js   |   Done    |   Like `horizontal-string-repeat-9.js`, but repeat N times (provided by the user)
+horizontal-loop.js              |   Done    |   Like `loop.js`, but repeat "horizontally"
+rectangle.js                    |   Done    |   Draw a rectangle where the width and height are provided by the user
+hollow-rectangle.js             |   Done    |   Like `rectangle.js`, but make it a "hollow" rectangle
+guessing-game.js                |   Done    |   I'm thinking of a number between 1 and 100. I will tell you higher or lower
+guessing-game-2-player.js       |   Done    |   Two player version of guessing-game.js. You have to "clear" the screen to prevent cheating
+
+total-lines.js                  |   Done    |   Continue prompting the user until they've typed a special word (eg "done"), then tell them the total number of lines they typed in

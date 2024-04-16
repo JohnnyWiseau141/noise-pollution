@@ -1,0 +1,29 @@
+<%- include('partials/header'); -%>
+
+<div style="max-width: 960px">
+  <h1>Chapter <%= chapter.num %> // <code><%= program.name %></code></h1>
+
+  <div>Status: <%= program.status %></div>
+
+  <h3>Description</h3>
+  <div><%= program.longDesc || program.shortDesc %><div>
+
+  <h3>Sbeve version</h3>
+  <% if (program.exists) { %>
+    <div style="margin-top: 10px"><a href="run">Run in browser</a></div>
+    <div style="margin-top: 10px"><a href="view">View source</a></div>
+  <% } else { %>
+    <div style="margin-top: 10px">Sbeve is lazy and has not created an example program yet</div>
+  <% } %>
+
+  <h3>Johnny version</h3>
+  <% if (program.johnny.exists) { %>
+    <div style="margin-top: 10px"><a href="run?johnny=1">Run in browser</a></div>
+    <div style="margin-top: 10px"><a href="view?johnny=1">View source</a></div>
+  <% } else { %>
+    <div style="margin-top: 10px">Johnny is lazy and hasn't completed this assignment yet</div>
+  <% } %>
+
+</div>
+
+<%- include('partials/footer'); -%>

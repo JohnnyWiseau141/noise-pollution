@@ -1,0 +1,17 @@
+<%- include('partials/header'); -%>
+
+<h1>Chapters</h1>
+
+<table style="border-spacing: 25px 0">
+  <% chapters.forEach(chapter => { %>
+    <tr>
+      <td style="text-align: right"><%= chapter.num %>.</td>
+      <td><a href="ch/<%= chapter.num %>/"><%= chapter.description %></a></td>
+      <td><%= chapter.programs.every(program => program.status === 'Done') ? 'Done' : 'In progress' %></td>
+    </tr>
+  <% }); %>
+</table>
+
+<div style="margin-top: 15px"><a href="/sbeve.js/download">Download sbeve.js</a></div>
+
+<%- include('partials/footer'); -%>
